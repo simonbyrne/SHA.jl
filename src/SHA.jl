@@ -21,6 +21,7 @@ include("sha1.jl")
 include("sha2.jl")
 include("sha3.jl")
 include("common.jl")
+include("streams.jl")
 
 # Create data types and convenience functions for each hash implemented
 for (f, ctx) in [(:sha1, :SHA1_CTX),
